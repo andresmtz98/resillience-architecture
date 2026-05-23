@@ -162,7 +162,7 @@ flowchart LR
     class DDB storage
     class CW obs
 ```
-[aws-components](docs/diagrams/components.png)
+![aws-components](components.png)
 
 > Líneas continuas: invocaciones síncronas. Líneas punteadas: emisión asíncrona de logs/métricas.
 
