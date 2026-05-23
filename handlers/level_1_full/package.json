@@ -1,0 +1,14 @@
+{
+  "name": "level-1-full",
+  "version": "1.0.0",
+  "main": "dist/handler.js",
+  "scripts": {
+    "build": "tsc",
+    "package": "npm run build && cd dist && zip -r ../function.zip ."
+  },
+  "devDependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
